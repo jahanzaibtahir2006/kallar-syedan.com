@@ -1,1 +1,0 @@
-# kallar-syedan.com
