@@ -1,0 +1,477 @@
+
+
+
+/*navbar*/
+/*navbar*/
+/*navbar*/
+/*navbar*/
+/*navbar*/
+/*navbar*/
+
+.navbar {
+background-color: #d32f2f !important;
+
+}
+
+
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold !important;
+
+}
+
+
+/*cards*/
+/*cards*/
+/*cards*/
+/*cards*/
+/*cards*/
+/*cards*/
+
+.card1,.card2,.card3{
+    display:flex;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .card1,.card2,.card3 {
+        width: 100%;
+    }
+}
+
+.mainCard {
+          margin-top:30px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    height: auto !important;
+    margin-bottom: 10px !important;
+
+}
+
+.card-text {
+    font-weight: bold;
+
+}
+
+/*card button*/
+/*card button*/
+/*card button*/
+
+.btn-primary{
+    width: 100%;
+    background-color: #d32f2f;
+
+
+
+/*heading*/
+/*heading*/
+/*heading*/
+/*heading*/
+/*heading*/
+
+h3{
+   color: #d32f2f;
+}
+
+
+
+.newArrivals{
+    margin-top: 50px;
+
+}
+}
+
+.heading{
+    text-align:center;
+    font-weight: bold;
+    color: #d32f2f;
+    margin: 20px;
+}
+
+.heading > h1{
+        text-shadow: 2px 2px 4px black;
+}
+
+/*link*/
+/*link*/
+/*link*/
+/*link*/
+/*link*/
+/*link*/
+
+
+.fa-facebook-f,.fa-twitter,.fa-google,
+.fa-instagram,.fa-linkedin,.fa-github{
+
+    margin: 10px 10px 10px 10px;
+    font-size: 30px !important;
+    color: #d32f2f;
+}
+
+.fa-home,.fa-envelope,.fa-phone,
+.fa-print,.fa-gem{
+     font-size: 30px !important;
+     color: #d32f2f;
+}
+
+/*footer*/
+/*footer*/
+/*footer*/
+/*footer*/
+/*footer*/
+/*footer*/
+
+.brown{
+
+    font-size: 20px;
+}
+
+.blue{
+
+    font-size: 20px;
+}
+
+/*footer headings*/
+/*footer headings*/
+/*footer headings*/
+
+h6{
+
+    font-size: 20px;
+}
+
+
+
+/*contact us*/
+/*contact us*/
+/*contact us*/
+/*contact us*/
+/*contact us*/
+/*contact us*/
+
+
+h1 {
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px black;
+}
+
+label {
+    color: #333
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px
+}
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px
+}
+
+.card {
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+label{
+
+     font-size: 20px;
+    color: white;
+}
+
+small{
+   font-size: 15px;
+    color: white;
+
+}
+
+.nav-link > .fa-phone{
+
+           color: white;
+}
+
+ .nav-item {
+
+    padding-top: 8px !important;
+}
+
+/*button*/
+/*button*/
+/*button*/
+/*button*/
+/*button*/
+/*button*/
+
+
+
+.glow-on-hover{
+
+  margin: auto;
+}
+
+.glow-on-hover {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+/*button margin on large screen*/
+/*button margin on large screen*/
+/*button margin on large screen*/
+/*button margin on large screen*/
+/*button margin on large screen*/
+/*button margin on large screen*/
+/*button margin on large screen*/
+
+@media screen and (min-width: 1200px) {
+ .nave{
+    margin-left: -65px;
+
+  }
+}
+/*
+@media screen and (min-width: 365px) {
+ form > glow-on-hover{
+  justify-content: center;
+  
+  }
+}*/
+
+.nave{
+
+    border: 2px solid black;
+}
+
+
+/*icon*/
+/*icon*/
+/*icon*/
+/*icon*/
+/*icon*/
+
+
+
+      .fa-shopping-cart{
+            font-size: 32px !important;
+
+}
+
+.fa-user-circle-o,.fa-bell{
+    font-size: 32px !important;
+
+}
+
+h1{
+    color:orangered;
+
+}
+
+p{
+    color:dodgerblue;
+}
+
+.fa-truck,.fa-headphones,.fa-thumbs-up {
+    font-size:50px!important;
+    margin-right: 10px;
+    color: #d32f2f !important;
+}
+
+
+/*dropdown function*/
+/*dropdown function*/
+/*dropdown function*/
+/*dropdown function*/
+/*dropdown function*/
+/*dropdown function*/
+
+/*.dropdown-toggle::after
+                  { border: none;
+
+ }*/
+
+.dropdown-menu.show {
+    display: block;
+    border: 2px solid black;
+}
+
+.dropdown-item{
+             background-color: #d32f2f;
+             color: black;
+
+}
+
+
+.dropdown-menu{
+
+   background-color: #d32f2f !important;
+}
+
+
+/*button*/
+/*button*/
+/*button*/
+/*button*/
+/*button*/
+/*button*/
+
+
+
+a > .glow-on-hover{
+
+ float: right;
+  margin: auto;
+}
+
+.glow-on-hover {
+    width: 160px;
+    height: 35px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+@media screen and (max-width:600px) {
+ .glow-on-hover{
+   
+   margin-right: 25% !important; 
+     margin-top: 25px !important;
+
+  }
+}
+/*
+carousel-caption > p{
+
+                color: #fff;
+
+}*/
+
+
+.p{
+
+     color: #ffff !important;
+}
